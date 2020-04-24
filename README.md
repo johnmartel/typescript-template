@@ -1,5 +1,6 @@
 # typescript-template
 
+[![](https://github.com/johnmartel/typescript-template/workflows/Build%20and%20test/badge.svg)](https://github.com/johnmartel/typescript-template/actions?query=workflow%3A%22Build+and+test%22)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 This is a (slightly) opinionated Github template for creating Typescript projects. 
