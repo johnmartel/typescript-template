@@ -1,9 +1,13 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
+  "env": {
+    "jest": true
+  },
   "plugins": [
     "@typescript-eslint",
     "import",
+    "jest",
     "prettier"
   ],
   "extends": [
@@ -29,6 +33,19 @@
     "import/no-unused-modules": "warn",
     "import/no-useless-path-segments": "error",
     "import/order": "error",
+    "jest/no-disabled-tests": "error",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
     "prettier/prettier": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.test.ts"],
+      "rules": {
+        "@typescript-eslint/ban-ts-ignore": "off"
+      }
+    }
+  ]
 }
