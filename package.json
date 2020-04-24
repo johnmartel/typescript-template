@@ -1,0 +1,23 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A Github template for creating typescript projects",
+  "private": true,
+  "keywords": [
+    "template",
+    "typescript"
+  ],
+  "author": "John Martel <jonathan.martel@coglinc.ca>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmartel/typescript-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnmartel/typescript-template/issues"
+  },
+  "homepage": "https://github.com/johnmartel/typescript-template#readme",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
