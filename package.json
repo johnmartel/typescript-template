@@ -18,6 +18,13 @@
   "homepage": "https://github.com/johnmartel/typescript-template#readme",
   "main": "lib/index.js",
   "scripts": {
+    "compile": "tsc",
+    "compile:clean": "npm run clean && tsc",
+    "clean": "rimraf lib",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "typescript": "3.8.3"
   }
 }
