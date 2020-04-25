@@ -8,7 +8,7 @@ _extends: .github:.github/_opensource.yml
 # For a reference on how to define settings, see: https://github.com/probot/settings#usage
 
 repository:
-  name: typescript
+  name: typescript-template
   description: A template for creating Typescript projects
   topics: template, typescript
   is_template: true
