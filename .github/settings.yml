@@ -38,6 +38,6 @@ branches:
         strict: true
         contexts: ['Check']
       required_signatures: true
-      enforce_admins: true
+      enforce_admins: null
       restrictions: null
 
