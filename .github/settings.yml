@@ -13,6 +13,11 @@ repository:
   topics: template, typescript
   is_template: true
 
+labels:
+  - name: dependencies
+    color: '#70f9e0'
+    description: Update dependencies
+
 # This does a few things:
   # - force pushes to master are forbidden (PRs are mandatory to push to master)
   # - at least one code review approval
