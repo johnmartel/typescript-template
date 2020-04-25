@@ -1,7 +1,30 @@
+# This is opt-in inheritance, see: https://github.com/probot/probot-config#an-opt-in-pattern
+# The base file we are extending here is located at: https://github.com/johnmartel/.github/blob/master/.github/_opensource.yml
+# Format is:
+# _extends: <repo in the same organization>:<file location relative to repo root>
+# This file defines some settings we want for all our open source repositories
 _extends: .github:.github/_opensource.yml
 
+# For a reference on how to define settings, see: https://github.com/probot/settings#usage
+
 repository:
-  name: open-source-template
-  description: A basic template for creating new repositories
-  topics: github, configuration, templates
+  name: typescript
+  description: A template for creating Typescript projects
+  topics: template, typescript
   is_template: true
+
+# This does a few things:
+  # - force pushes to master are forbidden (PRs are mandatory to push to master)
+  # - at least one code review approval
+  # - if any file modified has an entry in CODEOWNERS, one code owner must approve
+  # - branch must be up-to-date to merge
+  # - the `Check` check must pass to merge
+  # - commits must be signed
+  # - repository admins cannot bypass these rules
+branches:
+  - name: master
+    protection:
+      required_status_checks:
+        strict: true
+        contexts: ['Check']
+
