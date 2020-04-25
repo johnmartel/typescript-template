@@ -36,6 +36,7 @@ Projects created from this template will get the following for free:
 - Default tests location;
 - Common npm scripts
 - Basic CI workflow using Github actions
+- Automatic dependency upgrade PRs by [Dependabot](https://dependabot.com)
 
 
 ## Building your new repo
