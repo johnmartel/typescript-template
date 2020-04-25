@@ -38,6 +38,7 @@ Projects created from this template will get the following for free:
 - Common npm scripts
 - Basic CI workflow using Github actions
 - Automatic dependency upgrade PRs by [Dependabot](https://dependabot.com)
+- Uploading of code coverage report to [Codecov](https://codecov.io)
 
 
 ## Building your new repo
