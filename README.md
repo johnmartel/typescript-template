@@ -1,6 +1,7 @@
 # typescript-template
 
 [![](https://github.com/johnmartel/typescript-template/workflows/Build%20and%20test/badge.svg)](https://github.com/johnmartel/typescript-template/actions?query=workflow%3A%22Build+and+test%22)
+[![codecov](https://codecov.io/gh/johnmartel/typescript-template/branch/master/graph/badge.svg)](https://codecov.io/gh/johnmartel/typescript-template)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![](https://api.dependabot.com/badges/status?host=github&repo=johnmartel/typescript-template)](https://dependabot.com)
 
