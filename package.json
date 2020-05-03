@@ -21,8 +21,8 @@
     "clean": "rimraf lib",
     "compile": "tsc",
     "compile:clean": "npm run clean && tsc",
-    "lint": "eslint src --max-warnings 0 --ext .ts",
-    "lint:fix": "eslint src --ext .ts --fix",
+    "lint": "eslint src __tests__ --max-warnings 0 --ext .ts",
+    "lint:fix": "eslint src __tests__ --ext .ts --fix",
     "test": "jest --coverage",
     "test:ci": "jest --coverage --ci"
   },
