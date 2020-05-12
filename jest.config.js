@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
   // this is a workaround since enabling coverage breaks sourceMaps
   // See: https://github.com/kulshekhar/ts-jest/issues/917
