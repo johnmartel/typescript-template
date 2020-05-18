@@ -39,6 +39,7 @@ Projects created from this template will get the following for free:
 - Basic CI workflow using Github actions
 - Automatic dependency upgrade PRs by [Dependabot](https://dependabot.com)
 - Uploading of code coverage report to [Codecov](https://codecov.io)
+- Maintainability score by [CodeClimate](https://codeclimate.com/)
 
 ## Building your new repo
 
