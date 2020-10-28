@@ -1,4 +1,6 @@
-module.exports = {
+import type { Config } from '@jest/types';
+
+const config: Config.InitialOptions = {
   // this is a workaround since enabling coverage breaks sourceMaps
   // See: https://github.com/kulshekhar/ts-jest/issues/917
   // See: https://github.com/facebook/jest/issues/5739
@@ -18,3 +20,4 @@ module.exports = {
   reporters: ['default', 'jest-junit'],
   testEnvironment: 'node',
 };
+export default config;

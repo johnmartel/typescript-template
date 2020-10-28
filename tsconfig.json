@@ -22,5 +22,8 @@
   "include": [
     "src/**/*"
   ],
-  "compileOnSave": true
+  "compileOnSave": true,
+  "tsNode": {
+    "compiler": "typescript"
+  }
 }
