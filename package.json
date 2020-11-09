@@ -27,7 +27,7 @@
     "test:ci": "jest --coverage --ci"
   },
   "devDependencies": {
-    "@jest/types": "26.6.1",
+    "@jest/types": "26.6.2",
     "@types/jest": "26.0.15",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
